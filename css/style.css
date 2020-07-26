@@ -1,0 +1,50 @@
+#main-header img {
+  width: 50%;
+  height: 73.5%;
+}
+
+#main-header .bg-black {
+  color: #ffffff;
+  background: #000000;
+}
+
+
+#main-header .menu-item {
+  width: 30%;
+}
+
+#main-header .menu-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#home .bg-success {
+  background: #6abedf !important;
+}
+
+
+@media(max-width:760px){
+  #main-header img {
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+
+
+
+@media(min-width:991px){
+  #main-header img {
+    width: 100%;
+    height: 73.5%;
+  }
+
+}
+
+
+@media(min-width:1199px) {
+  .menu-item {
+    padding: 3.4rem !important;
+  }
+}
